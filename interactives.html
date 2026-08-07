@@ -1,0 +1,566 @@
+<html>
+    <head>
+        <title>Interactives & Web Design</title>
+
+        <!-- pull in p5 library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <script src="script.js" defer></script>
+
+        <!-- stylesheet reference -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- initial sizing -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="icons/TomactopusFav.png"/>
+
+
+
+        <!-- put all fonts you intend to use here using @font-face -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+        </style>
+
+    </head>
+    <body>
+        <!-- put everything visible in the body (main contents); 
+             can specify more in the CSS doc as needed -->
+        <header id="top">
+            <div class="logo-box">
+                <a href="index.html">
+                    <img class="base" src="logos/ChompyLogoSP.svg">
+                    <img class="hover" src="logos/ChompyHoverSP.svg">
+                </a>
+            </div>
+
+            <div class="menu">
+                <!-- <img src="icons/MenuSparkleSP.svg>"> -->
+                <img class="base-menu" src="icons/MenuSparkleSP.svg">
+                <img class="hover-menu" src="icons/MenuHoverSP.svg">
+                
+                <div class="menu-drop">
+                    <div class="menu-drop-content">
+                        <a href="interactives.html">Interactives & Web Design</a>
+                        <a href="animations.html">Animation & Modeling</a>
+                        <a href="physical.html">Physical (Type, Layouts, & Branding)</a>
+                        <a href="https://github.com/ChompyLab">Code</a>
+                        <a href="https://aigautk.github.io/">AIGAUTK Site</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </header>
+
+        <!-- spacers so content doesn't get covered -->
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+        <!-- info for backtracking: href = "../index.html"
+        <a class = "DCH" href = "../index.html">Daisy Chain</a>
+         -->
+
+        <!-- put a flexbox here w/ wrap & try to do offset -->
+        <!-- for items:
+            - put them in either a broider frame w/ a matching background color or use a basic rectangle
+            - put padding between the frames & the label
+            - Label should have 2 tone boxes (dk brown edge, lt on inside)
+                - Use subheader, padding/break, then body font
+
+            - add spacer box before repeating the format (continue as needed), match to amts for pages
+         -->
+        
+        <!-- section header, maybe a short description here -->
+
+        <div class="title2"> Interactives & Web Design </div>
+        <br><br>
+        <!-- <div class="about"> Testing stuff here so I can check if it works. 
+            <br> Detail-oriented designer, programmer, and lifelong learner.
+
+        </div> -->
+        <br><br><br>
+
+        
+        
+
+        <!-- <div class="main-box">
+            <div class="table"></div>
+            <div class="testlink">
+                <a href="template.html">Go to Page</a>
+            </div>
+        </div> -->
+
+        <!-- <script>
+            // When the user scrolls down 50px from the top of the document, resize the header's font size
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("header").style.fontSize = "30px";
+                } else {
+                    document.getElementById("header").style.fontSize = "90px";
+                }
+            }
+        </script> -->
+
+        <!-- OG template format for adding sections -->
+
+            <!--         <div class="template-main">
+            <div class="frame-box">
+                <div class="frames">
+                    <img src="logos/ChompyHoverSP.svg">
+                </div>
+                <div class="frames">
+                    <img src="tv-elems/test.svg">
+                </div>
+            </div>
+
+            <div class="F2L-spacer"></div>
+
+            <!-- <br><br> 
+
+
+            <div class="label-main">
+                <div class="label-inner">
+                    <h4>Subheader here</h4>
+                    <br><br>
+                    Here's a sample text of body to check label formatting. 
+                    I hope it has enough space all around to look good. 
+                    This is just filler text for now and can be swapped out later :D
+
+                    <br><br><br>
+                    <button class="resume">Extra Link if needed </button>
+
+                </div>
+            </div>
+
+
+            <div class="L2NF-spacer"></div> -->
+
+
+
+        <div class="template-main">
+            <div class="frame-box">
+                <div class="frames">
+                    <!-- id="fh-logo" -->
+                    <img src="interactives/fowl-heat/fh-menu-big.png">
+                </div>
+
+                
+                <div class="frames">
+                    <img src="interactives/fowl-heat/itch-pics/hawk-encounter.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/fowl-heat/itch-pics/nest-play.png">
+                </div>
+
+                <div class="frames">
+                    <img src="interactives/fowl-heat/Testing/IMG_2528.JPG">
+                </div>
+                <div class="frames">
+                    <img src="interactives/fowl-heat/Testing/IMG_2541 2.JPG">
+                </div>
+                <div class="frames">
+                    <img src="interactives/fowl-heat/Testing/IMG_2535.JPG">
+                </div>
+
+            </div>
+
+            <div class="F2L-spacer"></div>
+
+            <!-- <br><br> -->
+
+
+            <div class="label-main">
+                <div class="label-inner">
+                    <h4>Fowl Heat (Card & Video Game, Unity — In Development)</h4>
+                    <img id="nsf" src="interactives/fowl-heat/Logos/NSF_Official_logo_Med_Res_600ppi.png">
+                    <br><br>
+                    Game developed in collaboration with NIMBioS at the University of Tennessee, Knoxville (UTK) under NSF grant 2411742.
+                    <br>
+                    Presented at Serious Play Conference 2025, 2026 Innovative Teaching & Learning Conference at UTK, and will be showcased at Meaningful Play 2026 in Pittsburgh.
+
+                    <br><br>
+                    In Fowl Heat, you play as an adult bird during the breeding season, 
+                    working to maintain your own health and that of your chicks under intense, unrelenting heat.
+
+                    <br><br>
+                    Small team of computer science students, graphic design students, and primary content authors creating a game based on their behavioral heat research. 
+                    As a student of both disciplines I worked closely between the two sides of the team, acting as a content translator when questions arose as a result of different working vocabularies. 
+                    
+                    <br><br>
+                    Created assets for both digital and physical editions, helped develop rules and ensured cohesion between both editions, 
+                    produced code and layouts for game UI/UX, organized content for quick access by team, 
+                    and conducted playtesting with primary content authors to ensure gameplay and rules were smooth and easy to understand.
+
+
+
+                    <br><br><br>
+                    <a href="https://cultivatingcreativity.itch.io/fowl-heat">
+                        <button class="resume">Itch.io Page</button>
+                    </a>
+                    
+                    <a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2411742">
+                        <button class="resume">NSF Grant </button>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="L2NF-spacer"></div>
+
+            <div class="template-main">
+            <div class="frame-box">
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/UB-logo.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/materials/UB-mats.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/materials/ex-hand.jpg">
+                </div>
+
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/materials/card-closeups-1.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/materials/card-spread.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/materials/card-closeups-2.png">
+                </div>
+
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/materials/play-card.JPG">
+                </div>
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/testing/ub-playtest-1.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/unlicensed-buyers/testing/ub-final-playtest.JPG">
+                </div>
+            </div>
+
+            <div class="F2L-spacer"></div>
+
+            <!-- <br><br> -->
+
+
+            <div class="label-main">
+                <div class="label-inner">
+                    <h4>Unlicensed Buyers (Card and Roblox Game)</h4>
+                    <br><br>
+                    Class project to develop a physical game. Team of 6 students from various fields of study.
+                    <br>
+                    In Unlicensed Buyers, it’s your job to dig through dirt to find diamonds. Choose a character and work quickly to find rare treasures and escape.
+                    Feeling stuck? Use your unique ability and shake up the game.
+                    Get your Grandma’s Old Recipes, invest in your retirement fund with unliquidated assets, or just straight up try and summon Cthulhu!
+
+                    <br><br><br>
+                    As Lead Designer and overall “platypus”, I worked closely with each team member to ensure the overall product was consistent. 
+                    Primarily helped with mechanic/rule building, conducting playtesting alongside the Head Game Master, and creating the physical materials 
+                    for initial playtests and the final physical game. 
+                    <br><br>
+                    For the Roblox edition, I worked on everything from level and character design to code and everything in between.
+                    Heavily focused on user experience and trying to build something that was intuitive to play.
+                    I also took notes during every meeting to track what new ideas or changes were proposed 
+                    to ensure the team stayed on track.
+
+                    <br><br><br>
+                    <!-- link to game:
+                        https://cultivatingcreativity.itch.io/fowl-heat
+                      -->
+                    <a href="https://www.roblox.com/share?code=9d84d9134f1ca54aab329aedafdaff5c&type=ExperienceDetails&stamp=1786055814595">
+                        <button class="resume2">Unlicensed Buyers on Roblox </button>
+                    </a>
+                    
+
+                </div>
+            </div>
+
+            <!-- <br><br><br><br><br><br> -->
+
+            <div class="L2NF-spacer"></div>
+
+
+
+            <div class="template-main">
+            <div class="frame-box">
+                <div class="frames">
+                    <img src="interactives/CleoMG.svg">
+                </div>
+                <div class="frames">
+                    <video controls>
+                        <source src="animations/p5 randoms/Game Recording.mp4"/>
+                    </video>
+                </div>
+
+                <br><br>
+                <div class="frames">
+                    <img src="animations/p5 randoms/duck.png">
+                </div>
+            </div>
+
+            <div class="F2L-spacer"></div>
+
+            <!-- <br><br> -->
+
+
+            <div class="label-main">
+                <div class="label-inner">
+                    <h4>Cleo in a Box P5 Minigame and Exercise (P5.js)</h4>
+                    <br><br>
+                    Inspired by my animated Blender story "Cleo in a Box", the original tale was modified as a fast-paced game.
+                    <br>
+                    Your goal is to get the box off of Cleo's head by scoring 1,000 points in under 30 seconds. Fail, and you're stuck wearing the box of shame for good.
+                    <br><br>
+                    Vibe coded in p5.js with frame-by-frame assets created in Procreate. Project for Special Topics: Motion Design.
+                    <br>
+                    Pictured below the minigame is another vibe coded p5 exercise.
+
+                    <br><br><br>
+                    <a href="https://editor.p5js.org/ChompyLab/sketches/z7k7IaIVC">
+                            <button class="resume">Try Your Luck </button>
+                    </a>
+                    <a href="https://editor.p5js.org/ChompyLab/sketches/dNOduSBd-">
+                            <button class="resume">A Duck?</button>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- <br><br><br><br><br><br> -->
+
+            <div class="L2NF-spacer"></div>
+
+
+            <div class="frame-box">
+                <div class="frames">
+                    <img src="interactives/SF/Logos/SF Logos.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/Logos/SF-Wordmark.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/Logos/SF-logomark.png">
+                </div>
+            
+                
+
+                
+                <div class="frames">
+                    <img src="interactives/SF/crops/SF Insta Ads.svg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/crops/SF Print 1.png">
+                </div>
+
+                <div class="frames">
+                    <img src="interactives/SF/crops/SF Print 2.svg">
+                </div>
+                
+                <div class="frames">
+                    <img src="interactives/SF/Book/Santa Fe Guidebook2.jpg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/Book/Santa Fe Guidebook3.jpg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/Book/Santa Fe Guidebook5.jpg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/Book/Santa Fe Guidebook6.jpg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/Book/GB-cover.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/IMG_7240.jpg">
+                </div>
+                
+                
+                <div class="frames">
+                    <img src="interactives/SF/crops/SF Badges 2.png">
+                </div>
+                <div class="frames">
+                    <video controls>
+                        <source src="interactives/SF/Logo Wiggle.mp4"/>
+                    </video>
+                </div>
+                <div class="frames">
+                    <img src="interactives/SF/Santa Fe Shirt Print.jpg">
+                </div>
+                
+                
+            </div>
+
+            <div class="F2L-spacer"></div>
+
+            <!-- <br><br> -->
+
+
+            <div class="label-main">
+                <div class="label-inner">
+                    <h4>Santa Fe City Branding (Illustrator, After Effects, InDesign)</h4>
+                    <br><br>
+                    Class project to create a theoretical rebrand for the City of Santa Fe based on research of the city and its core values. 
+                    <br>
+                    Focused on the natural landscape and unique landmarks, it is meant to evoke the historical, traditional, and vibrant atmosphere that earned the city its nickname, "The City Different".
+                    <br><br>
+                    Deliverables included a website, guidebook, print and digital ads, and four aditional items of our choice.
+                    <br> I chose to create ID badges, a letter and envelope set utilizing the type system, a short animation of the wordmark, and a shirt with a woodblock print of the new logomark.
+
+                    <br><br><br>
+                    <a href="https://www.figma.com/proto/TH1dbRrajcG4kkRt0PeUN6/Santa-Fe-Website-1?node-id=1-2&p=f&t=zRhOM7GzhsPwsNWO-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2">
+                        <button class="resume">Figma Prototype </button>
+                    </a>
+                    
+
+                </div>
+            </div>
+
+            <!-- <br><br><br><br><br><br> -->
+
+            <div class="L2NF-spacer"></div>
+
+            <div class="frame-box">
+                <div class="frames">
+                    <img src="interactives/WRNO/WRNO Logo Update (Glow).jpg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/WRNO/Riso Flyers.jpeg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/WRNO/Heck Yeah.jpeg">
+                </div>
+
+                <div class="frames">
+                    <img src="interactives/WRNO/WRNO Riso Poster Variants.jpeg">
+                </div>
+                <div class="frames">
+                    <img src="interactives/WRNO/Murano s Very Own.jpg">
+                </div>
+                
+            </div>
+
+            <div class="F2L-spacer"></div>
+
+            <!-- <br><br> -->
+
+
+            <div class="label-main">
+                <div class="label-inner">
+                    <h4>WRNO Radio (Radio Broadcasting)</h4>
+                    <br><br>
+                    "Tune in for your daily dose of the one and only Valentine Heart, Murano’s top model and designer!"
+                    <br><br>
+
+                    Created branding and content for a limited-run radio station over the course of the Spring 2025 semester.
+                    <br>
+                    Used Audacity and GarageBand to create three one-hour sets that were played live at varying times. Developed a sound profile and character who runs the station "late at night", as well as various exercises in sound design.
+                    <br> 
+                    Each student was responsible for developing ther own radio station and broadcasts. My goal with this class was to use it as an exercise in worldbuilding and character development, immersing listeners in another place and time. The audio profile is fusturistically retro, while the storyline contains small details that add up to a much larger story.
+                    <br><br>
+
+                    Top: Logo; Class Risograph Posters
+                    <br>
+                    Bottom: Close-ups of WRNO Risograph posters and their color variants
+                    
+
+                    <br><br><br>
+                    <a href="https://transmission-reception.com/stations/rachel.html">
+                        <button class="resume">Visit the Station</button>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- <br><br><br><br><br><br> -->
+
+            <div class="L2NF-spacer"></div>
+
+
+
+
+            <div class="frame-box">
+                <div class="frames">
+                    <img src="interactives/ID/Project1 ID Mockup.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/ID/p1 pic 2.png">
+                </div>
+                <div class="frames">
+                    <img src="interactives/ID/Still Life Exercise.png">
+                </div>
+                <div class="frames">
+                    <!-- <img src="logos/ChompyHoverSP.svg"> -->
+                     <video controls>
+                        <source src="interactives/ID/EPIC Website Video Edit.mp4"/>
+                     </video>
+                </div>
+                <div class="frames">
+                    <img src="interactives/ID/wander.png">
+                </div>
+                
+            </div>
+
+            <!-- <br><br> -->
+
+            <div class="F2L-spacer"></div>
+
+            <div class="label-main">
+                <div class="label-inner">
+                    <h4>Interaction Design Projects (Web)</h4>
+                    <br><br>
+                    Various web projects developed using HTML, CSS, JavaScript, and Figma.
+                    <br><br>
+                    Top Left, Middle: About Me site built in Glitch using CSS & HTML
+                    <br>
+                    Top Right: CSS Still Life
+                    <br>
+                    Bottom Left: Figma Website Prototype for artist of our choice. I chose to do Jorge Rivera-Herrans, reworking his website to incorporate the EPIC: The Musical branidng that already existed on his other social accounts.
+                    <br>
+                    Bottom Right: Abstract webpage experimenting with HTML and CSS. Originally built on Glitch, still accessible <a href="https://chompylab.github.io/rachelutkabstract/">here</a>.
+
+                    <br><br><br>
+                    <a href="https://chompylab.github.io/rachelutkabstract/">
+                            <button class="resume">Abstract Boxes</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+
+
+        <footer>
+            <div class="footer-links">
+                <a class="footer-icon" href="mailto:rachlipina@gmail.com">
+                    <img class="email-base" src="icons/EmailIcon.svg">
+                    <img class="email-hover" src="icons/EmailHover.svg">
+                </a>
+                <a class="footer-icon" href="https://github.com/ChompyLab">
+                    <img class="github-base"src="icons/GithubIcon.svg">
+                    <img class="github-hover" src="icons/GithubHover.svg">
+                </a>
+
+                <a href="https://drive.google.com/file/d/1hnS35xrXfYyOkiuJ8UcynuHXSvYHErLN/view?usp=sharing">
+                    <button class="resume">
+                        Resume
+                    </button>
+                </a>
+
+
+                
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
